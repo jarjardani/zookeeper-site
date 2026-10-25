@@ -1,0 +1,12 @@
+:root { --bg: #f7f1e8; --ink: #2f2a24; --muted: #6b6157; --accent: #b5603a; --card: #fffaf3; --line: #e6dccd; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1f1b17; --ink: #efe6da; --muted: #b3a797; --accent: #e08a62; --card: #29241f; --line: #3a332c; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+p, li { color: var(--ink); }
+.lede { color: var(--muted); margin-top: 0; }
+a { color: var(--accent); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-top: 24px; }
+footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--line); padding-top: 16px; }
